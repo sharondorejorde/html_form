@@ -1,0 +1,60 @@
+body{
+   background: url(https://d2v8skpstyl8bm.cloudfront.net/products/images/product/5/9/5928b63d-d636-347c-9660-f35855d7a63c.jpg?1610573281);
+  font-family:"special elite";
+    line-height: 1.4;
+ font-size:20px;
+}
+
+.container{
+  background: repeating-linear-gradient(135deg,#266EF6,#BF00FF,#FF8B00,#C60404,#FFD300,#35B535);
+  border: 1px solid white;
+    border-radius: 20px;
+  padding:2.5rem 2.5rem;
+  opacity:95%;
+   width:600px;
+  margin:auto;
+}
+
+h1{
+    font-family: 'Bangers', raleway, cursive;
+  color:#f3e0dc;
+  text-align:center;
+  font-size:55px;
+}
+.description{
+  text-align:center;
+  font-size:25px;
+}
+.form-input{
+  display:block;
+  width:90%;
+  height:2rem;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid;
+  border-radius: 0.25rem;
+}
+
+input,
+button,
+select,
+textarea {
+   font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+
+textarea {
+ min-height: 120px;
+  width: 100%;
+  padding: 0.625rem;
+  resize: vertical;
+ }
+
+.submit-button{
+   background: repeating-linear-gradient(135deg,#266EF6,#BF00FF,#FF8B00,#C60404,#FFD300,#35B535);
+  width:50%;
+  padding:0.75rem;
+  cursor: pointer; 
+  margin-left:135px;
+}

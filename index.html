@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Marvel form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+
+<div class="container">
+ <body>
+  <header class="header">
+    <h1 id="title" class="text-center"> Marvel favorites Survey Form</h1>
+    <p id="description" class="description text-center">
+      We want to see if you're a spider-fan, an <br> iron-man, or a Cap-stan.
+    </p>
+  </header>
+  
+  <form id="survey-form">
+      <label id="name-label" for="name">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="form-input"
+        placeholder="Peter Parker" 
+        required
+      />
+   <br>
+      <label id="email-label" for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="form-input"
+            
+        placeholder="spiderman@marvel.com"
+        required
+      />
+   <br>
+      <label id="number-label" for="number"
+        >Age</label
+      >
+      <input
+        type="number"
+            
+        name="age"
+        id="number"
+        min="13"
+        max="99"
+        class="form-input"
+        placeholder="13"
+        required
+      />
+    <br>
+    <br>
+    
+    
+    
+      
+    <label for="comic-mcu" id="comic-mcu">Do you perfer the comics or the MCU?</label>
+    <br>
+        <input
+          id="comic-mcu"
+         type="radio"
+          id="comic"
+          name="comic-mcu"
+          value="comic"
+          checked
+        />
+    <label for="comic-mcu">Comic</label
+      >
+     <br> 
+     <input
+          id="comic-mcu"
+         type="radio"
+          id="mcu"
+          name="comic-mcu"
+          value="mcu"
+        />
+    <label for="comic-mcu">MCU</label
+      >
+   <br>
+       <input
+          id="comic-mcu"
+         type="radio"
+          id="both"
+          name="comic-mcu"
+          value="both"
+        />
+    <label for="comic-mcu">Both</label
+      >
+    <br>
+       <br>
+    
+  
+      <label for="dropdown" id="big3">Which option best describes your favorite of the big 3?</label>
+      <select class="form-input" id="dropdown" name="superhero" required>
+        <option disabled selected value>Select your character</option>
+        <option value="spiderman">Spider-man</option>
+        <option value="ironman">Ironman</option>
+        <option value="captain-america">Captain America</option>
+        <option value="other">Other</option>
+      </select>
+    <br>
+    <br>
+
+   
+    
+      <label for="sidekick">
+        Who is your favorite other character?
+      </label>
+      <select  id="sidekick" name="sidekick" class="form-input"  required>
+        <option disabled selected value>Select an option</option>
+        <option value="scarlet">Scarlet Witch</option>
+        <option value="falcon">Falcon</option>
+        <option value="warmachine">Warmachine</option>
+        <option value="ant-man">Ant-Man</option>
+        <option value="other">Other</option>
+      </select>
+   <br>
+      <br>
+
+    
+      <label for="tvshow">
+        Who would you like to see get a tv show next?
+        <span class="clue">(Check all that apply)</span></label>
+      <br>
+      <input
+          name="tvshow"
+          value="wandavision"
+          type="checkbox"
+          id="checkbox"
+        /><label for="checkbox">WandaVision season 2</label>
+    <br>
+     <input
+          name="tvshow"
+          value="fatws"
+          type="checkbox"
+          id="checkbox"
+        /><label for="checkbox">Falcon and the Winter Solider season 2</label>
+    <br>
+      <input
+          name="tvshow"
+          value="hulk"
+          type="checkbox"
+          id="checkbox"
+        /><label for="checkbox">Hulk Show</label>
+    <br>
+      <input
+          name="tvshow"
+          value="blip"
+          type="checkbox"
+          id="checkbox"
+        /><label for="checkbox">Show about blip</label>
+    <br>
+     <input
+          name="tvshow"
+          value="daredevil"
+          type="checkbox"
+          id="checkbox"
+        /><label for="checkbox">DareDevil on Disney</label>
+    <br>
+    <br>
+    
+    
+    
+      <label id="textarea">Any comments or suggestions?</label>
+    <br>
+      <textarea
+        id="textarea"
+        name="comment"
+        placeholder="Enter your comment here..."
+      ></textarea>
+    <br>
+
+    
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    
+  </form>
+  </body>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
